@@ -51,7 +51,7 @@ const defaultRegions = languageFlags.reduce((map, lang) => {
 
 function getLocale() {
   // cet the primary language from navigator.languages or fallback to navigator.language
-  let language = (navigator.languages && navigator.languages[0]) || navigator.language || 'en-US';
+  let language = 'en-GB';
 
   // not all browsers return the complete lang code so we have to add it from the mapped values
   if (language.length === 2) {
