@@ -15,7 +15,7 @@ body {
   place-content: center;
   font-family: system-ui;
   background-color: var(--clr-bg);
-  background-image: radial-gradient(rgb(8, 47, 73),rgb(8, 47, 60));
+  background-image: radial-gradient(rgb(207, 23, 191),rgb(8, 47, 60));
   background-blend-mode: difference;
 }
 
