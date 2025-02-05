@@ -50,7 +50,7 @@ body{
 }
   
 .bird-body{
-  --body-size: 227px;
+  --body-size: 500px;
   display:grid;
   place-items:center;
   height: var(--body-size);
