@@ -4,7 +4,7 @@
     color: white;
 }
 
-.imagecontainer #mainimage{
+.imagecontainer .mainimage{
     display: block;
     width: 100%;
 
@@ -38,7 +38,7 @@
     background-color: blue;
     color: white;
 }
-#logo{
+.logo{
     width: 75px;
     position: absolute;
     top: 20px;
