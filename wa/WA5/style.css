@@ -1,0 +1,47 @@
+.imagecontainer{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.imagecontainer #mainimage{
+    display: block;
+    width: 100%;
+
+}
+
+.imagecontainer .overlay{
+    position: absolute;
+    bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.imagecontainer .overlay span{
+    padding: 10px;
+    margin:10px;
+
+}
+.border{
+    border: 2px solid black;
+    
+}
+
+.border.spain{
+    background-color: red;
+    color: white;
+
+}
+
+.border.costarica{
+    background-color: blue;
+    color: white;
+}
+#logo{
+    width: 75px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+}
