@@ -82,7 +82,7 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media(max-width: 500px) {
+@media(max-width: 500px){
 
 
     body {
@@ -147,7 +147,20 @@ body {
     
     
       }
+      main {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
     
+      }
+      article {
+        flex: 1;
+    
+      }
+      aside {
+        flex: 1;
+    
+      }
       aside ul {
         display: grid;
         gap: 1px;
