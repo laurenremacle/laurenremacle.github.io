@@ -1,0 +1,22 @@
+div.concert{
+border: 5px solid orange;
+padding: 5px;
+margin: 5px;
+border-radius: 25px;
+}
+div.concert-list{
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: rgb(136, 106, 214);
+}
