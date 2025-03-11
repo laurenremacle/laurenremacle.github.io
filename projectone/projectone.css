@@ -1,5 +1,5 @@
 div.concert{
-border: 5px solid orange;
+border: 5px solid white;
 padding: 5px;
 margin: 5px;
 border-radius: 25px;
@@ -18,5 +18,5 @@ h2{
     text-align: center;
 }
 body{
-    background-color: rgb(136, 106, 214);
+    background-color: rgb(205, 199, 172);
 }
