@@ -1,56 +1,105 @@
 div.concert{
-border: 5px solid rgb(215, 171, 90);
+border: 5px solid greenyellow;
 margin: 5px;
 border-radius: 25px;
 padding-left: 20px;
 padding-right: 20px;
 }
-div.concert-list{
-    display: grid;
-    gap: 15px;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
+
 body{
-    background-color: rgb(144, 106, 144);
+    background-color: rgb(93, 93, 229);
     line-height: 1.5;
     font-family: "Orbitron", sans-serif;
 }
 h3{
     font-size: 30px;
+    color: white;
 }
 strong.stardate{
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     display: block;
-    color: orange;
+    color: greenyellow;
 }
 .conductor .title{
     font-size: 17px;
     font-weight: bold;
+    color: white;
 
 }
 .conductor{
     font-weight: normal;
+    color: rgb(200, 218, 206);
 }
 .rep .title{
     font-size: 17px;
     font-weight: bold;
+    color: white;
 }
 .rep{
     font-weight: normal;
+    color: rgb(200, 218, 206);
 }
-.header{
-    border: 20px solid black;
-    background-color: black;
-    color: rgb(144, 106, 144) ;
-    margin-bottom: 25px;
+
+img:hover{
+    transform: scale(1.5);
+} 
+
+@media(max-width:400px){
+    
+      .header{
+        border: 30px solid black;
+        background-color: black;
+        color: rgb(144, 106, 144) ;
+        margin-bottom: 25px;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+
+}
+@media(min-width:401px){
+    div.concert-list{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 150px;
+        padding-right: 150px;
+      }
+      .leftpicture{
+        float: left;
+        margin-right: 10px;
+        transition: transform 0.5s ease;
+    
+    }
+    .rightpicture{
+        float: right;
+        margin-left: 10px;
+    }
+    .header{
+        border: 30px solid black;
+        background-color: black;
+        color: rgb(144, 106, 144) ;
+        margin-bottom: 25px;
+        display: flex;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+    }
+    h2{
+        text-align: center;
+        font-size: 45px;
+        color: white;
+    }
+
 }
