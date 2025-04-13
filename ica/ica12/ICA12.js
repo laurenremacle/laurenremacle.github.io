@@ -39,7 +39,6 @@ async function getQuote() {
         const answerText = document.querySelector('#js-answer-text');
         answerText.textContent = answer;
         
-        quotebutton.addEventListener("click", generatequote)
         getQuote();
 
 
