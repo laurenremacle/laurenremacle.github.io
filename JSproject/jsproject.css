@@ -1,0 +1,24 @@
+#numbers{
+    font-size: 36px;
+    text-align: center;
+}
+
+h1, h2, div{
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#numbersection {
+    width: 600px;
+    border: 1px solid #000;
+}
+
+#box{
+ display: flex;
+ justify-content: center;
+ 
+}
+
+body {
+    background-color: rgb(200, 202, 140);
+}
